@@ -1,0 +1,156 @@
+header {
+  padding-top: 1em;
+  text-align: center;
+  color: white;
+  background-color: white;
+  margin-bottom: -16px;
+}
+
+header img{
+  width: 500px;
+}
+
+ul{
+    padding: 6px;
+    background-color: rgb(250, 83, 83);
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 18px;
+
+}
+li a:link{
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover{
+  color: rgb(135, 203, 226);
+}
+
+li a:visited {
+  color: black;
+}
+
+body{
+  margin: 0% 15%;
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(219, 132, 132);
+}
+
+#vulcao{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+main{
+  text-align: center;
+  background-color: white;
+  z-index: auto;
+  padding-bottom: 20px;
+  padding-top: 16px;
+}
+
+footer{
+  text-align: center;
+  font-family: "kaushan script";
+  background-color: rgb(159, 120, 211);
+  font-size: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.catalogo{
+  width: 600px;
+}
+
+table{
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  margin: 0% 10%;
+}
+
+thead, td, table{
+  border: 1px solid black;
+}
+
+td strong{
+  font-size: 17px;
+  margin-top: 15px;
+}
+
+.jogos{
+  width: 100px;
+  margin-top: 10px;
+}
+
+th{
+  font-size: 1.3em;
+  border: 1px solid black;
+}
+
+td, th{
+  padding-top: 3px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  border: 1px solid black;
+}
+
+.tamanho1 td, th{
+  width: 1000px;
+}
+
+.tamanho2 td, th{
+  width: 110px;
+}
+.info p{
+  width: 50em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  line-height: 160%;
+  font-family: verdana;
+}
+.home p{
+  width: 50em;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 160%;
+  font-family: verdana;
+}
+p{
+  line-height: 160%;
+  font-family: verdana;
+}
+.avat p{
+  width: 50em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.avatpic img:hover{
+  transition: 150ms;
+  background-color: rgb(242, 242, 242);
+}
+.avatpic img:active{
+  background-color: rgb(204, 204, 204);
+}
+.random{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.legenda{
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  margin-top: -5px;
+}
